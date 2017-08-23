@@ -412,27 +412,6 @@ $('body').scrollspy({
  offset: 200 
 });
         
-// carousel             
-$('.carousel').carousel({
-  interval: 2750,
-  pause: "hover",
-  wrap: true 
-});
-
-//Modals for ellipsis
-(function ($) {
-	if ($(window).width()>=767 && $(window).width()<951) {
-		
-			$( ".shrinked1" ).click(function() {
-				$('#myModal1').modal('show');
-			});
-
-			$( ".shrinked2" ).click(function() {
-				$('#myModal2').modal('show');
-			});
-}
-})(jQuery);
-
  // smooth scrolling
 $('nav a, .down-button a').bind('click', function () {
     $('html, body').stop().animate({
