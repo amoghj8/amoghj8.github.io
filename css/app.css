@@ -667,6 +667,7 @@ blockquote p {
   font-size: 0.9em;
   font-style: italic;
   line-height: 1.5em;
+  font-family: 'Josefin Slab', serif;
 }
 .desc a {
   color: #58B96B;
