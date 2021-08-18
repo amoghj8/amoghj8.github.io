@@ -1,0 +1,35 @@
+---
+title: "Grunt"
+layout: post
+date: 2017-08-11 22:48
+image: /assets/images/grunt.svg
+headerImage: false
+tag:
+- Grunt
+- Javascript
+category: blog
+author: amoghj8
+description: All about Grunt 
+---
+
+## Intro:
+
+
+<p>I like to minify my Javascript files, optimize the images and compress my CSS. All this seemed unachievable until I leaned about Grunt. Yes, Grunt helps us solve all the above problems by its own. Automation is cool, so is Grunt. </p>
+
+<p>Grunt initially seemed intimidating to me, hence I chose to tackle the situation by reading the docs and other sources. As a matter of fact, I did use Grunt for achieving compression and optimization, which were essential to my website. The results were splendid.</p>
+
+<p>Grunt minified 11 images and saved 331 kB which accounts to 20.8% of the size. Also, the various Javascript files were concatenated and minified to reduce the number of requests and size occupied. So the total size of files was reduced from 21.72 kB to 13.57 kB. The performance of the website has increased and the time required for loading the content has decreased by nearly 55%.</p>
+
+<p>Its time to get hands dirty with code. I use Grunt on my Ubuntu 16.04 Linux distribution. Below are the steps I followed to get going with Grunt.</p>
+
+
+## Setup:
+
+{% gist amoghj8/6b35abdf46c0327d9964c486bc5f06b5 %}
+
+## What's next: 
+
+
+<p>There you go, congratulations, you have successfully installed Grunt. Now to accomplish tasks like minifying Javascript files, optimizing images, concatenating files etc., you need to install specific Grunt plugins.</p>
+

@@ -1,0 +1,32 @@
+---
+title: "S2DSM"
+layout: post
+date: 2021-03-16 22:10
+tag: 
+- MSI
+- Userfaultfd
+- C
+- Linux v5.8
+headerImage: true
+projects: true
+hidden: true # don't count this post in blog pagination
+description: "Super simple distributed shared memory"
+category: project
+author: amoghj8
+externalLink: false
+---
+
+
+Implemented s2dsm, a distributed shared memory (user-level) program that supports a page-granule MSI protocol using userfaultfd. Two instances of s2dsm will communicate their page information using sockets.
+
+
+[Source code](https://github.com/amoghj8/Super-Simple-Distributed-Shared-Memory). 
+
+---
+
+Tech?
+
+- C
+- Linux v5.8
+
+---
