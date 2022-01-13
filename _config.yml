@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: assets/resume/Amogh_Joshi.pdf
 
-url: https://amoghj8.github.io/me
+url: https://amoghj8.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
